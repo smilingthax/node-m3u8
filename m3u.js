@@ -718,6 +718,7 @@ var toStringIgnoredProperties = {
 
 var dataTypes = {
   iframesOnly            : 'boolean',
+  independentSegments    : 'boolean',
   targetDuration         : 'integer',
   mediaSequence          : 'integer',
   discontinuitySequence  : 'integer',
@@ -727,6 +728,7 @@ var dataTypes = {
 var propertyMap = [
   { tag: 'EXT-X-ALLOW-CACHE',            key: 'allowCache' },
   { tag: 'EXT-X-I-FRAMES-ONLY',          key: 'iframesOnly' },
+  { tag: 'EXT-X-INDEPENDENT-SEGMENTS',   key: 'independentSegments' },
   { tag: 'EXT-X-MEDIA-SEQUENCE',         key: 'mediaSequence' },
   { tag: 'EXT-X-DISCONTINUITY-SEQUENCE', key: 'discontinuitySequence' },
   { tag: 'EXT-X-PLAYLIST-TYPE',          key: 'playlistType' },
